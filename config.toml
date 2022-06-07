@@ -5,9 +5,17 @@ theme='coHub'
 
 [Menu]
   [[menu.Main]]
+  name = "About"
+  url= "#about"
+  weight = 1
+  [[menu.Main]]
+  name = "Services"
+  url= "#service"
+  weight = 2
+  [[menu.Main]]
   name = "Contact"
   url= "/contact/"
-  weight = 1
+  weight = 2
 
   # Sitemap Menu
   [[menu.sitemap]]
