@@ -1,0 +1,31 @@
+---
+enable: true
+title: "How We Can Help"
+subtitle: >
+          nKey offers a wide-array of services that can be laser-focused to your exact needs.
+services:
+  - name: "Cybersecurity"
+    description: >
+                The ever-changing landscape of cybersecurity threats requires constant vigilance and reduced complexity; our specialty.    
+    icon: "ti-lock"
+  - name: "Compliance"
+    description: >
+                Our comprehensive Governance, Risk, and Compliance (GRC) solutions aim to clear regulatory hurdles without slowing your business.
+    icon: "ti-id-badge"
+  - name: "E-Commerce"
+    description: >
+                Sell more through intelligent analytics, multichannel distribution, and tighter inventory control.
+    icon: "ti-shopping-cart"
+  - name: "Risk Analysis"
+    description: >
+                We ferret out the chokepoints and key operational risks that put your company in the greatest danger.
+    icon: "ti-pulse"
+  - name: "Emerging Technologies"
+    description: >
+                nKey has a proven track record of helping companies gain a competitive advantage by staying ahead of their competition.
+    icon: "ti-infinite"
+  - name: "Custom Development"
+    description: >
+                If you have an idea or a need, we will make it a reality.
+    icon: "ti-cloud"
+---
