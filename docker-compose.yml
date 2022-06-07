@@ -1,18 +1,18 @@
 build:
   image: klakegg/hugo:0.93.2-ext-debian
   volumes:
-    - "./src:/src"
+    - "./:/src"
 server:
   image: klakegg/hugo:0.93.2-ext-debian
   command: "serve --poll 700ms"
   volumes:
-    - "./src:/src"
+    - "./:/src"
   ports:
     - "1313:1313"
 shell:
   image: klakegg/hugo:0.93.2-ext-debian
   command: shell
   volumes:
-    - "./src:/src"
+    - "./:/src"
   ports:
     - "1313:1313"

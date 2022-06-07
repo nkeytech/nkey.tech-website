@@ -1,0 +1,27 @@
+{{with .Site.Data.cta}}
+{{ if .enable }}
+<section class="cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="cta-content">
+          <h2>{{.title}}</h2>
+          <p style="text-align: left;">{{.content}}</p><br />
+          <a href="{{.buttonTarget | absURL }}" class="btn btn-primary mb-3">
+              Get In Touch
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
