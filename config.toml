@@ -2,3 +2,34 @@ baseURL = 'https://nkey.tech/'
 languageCode = 'en-us'
 title = 'nKey Technologies'
 theme='coHub'
+
+[Menu]
+  [[menu.Main]]
+  name = "Contact"
+  url= "/contact/"
+  weight = 1
+
+  # Sitemap Menu
+  [[menu.sitemap]]
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 1
+
+[params]
+  contactLink = "contact"
+  copyright = "© {year} nKey Technologies Inc."
+  formspreeURL = "https://formspree.io/f/xeqndjzb"
+  googleAnalytics = "G-Z77G6ZBY1H"
+  logo = "images/nkey-logo2.png"
+  footerlogo = "images/nkey-logo2-transparent-gs.png"
+
+  [params.address]
+  address = "Twin Cities, Minnesota"
+  email = "hello@nkey.tech"
+  phone = "651 349 9696"
+
+  [params.map]
+  APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
+  latitude = "44.9530706"
+  longitude = "-93.1652564"
+  pinImage = "images/pin.png"
