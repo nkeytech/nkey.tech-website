@@ -33,3 +33,4 @@ theme='coHub'
   latitude = "44.9530706"
   longitude = "-93.1652564"
   pinImage = "images/pin.png"
+  mapImage = "images/msp.jpg"
